@@ -1,4 +1,4 @@
-html {
+body {
     background-color: #add8e6;
 }
 p:first-letter {
@@ -7,4 +7,26 @@ p:first-letter {
 }
 p {
     font-family: arial;
+}
+strong {
+    color:#daa520;
+}
+time {
+    color:#daa520;
+}
+em {
+    color:green;
+    background-color: white;
+}
+h1 {
+    font-family: arial;
+    text-align: end;
+    font-size: 20px;
+}
+h1 span {
+    color: red;
+    font-size: 18px;
+}
+h2 {
+    font-family: serif;
 }
