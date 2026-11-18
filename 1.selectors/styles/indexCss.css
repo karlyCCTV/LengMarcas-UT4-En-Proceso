@@ -10,14 +10,14 @@ header {
     text-align: center;
 }
 
-nav {
+.navbar {
     list-style: none;
     background-color: #444;
 }
-li {
+.navbar li {
     display: inline-block;
 }
-li a {
+.navbar li a {
     color: white;
     text-decoration: none;
 }
