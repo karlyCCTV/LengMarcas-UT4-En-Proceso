@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial,sans-serif;
+}
+
+header {
+    font-size: 2rem;
+    color: white;
+    background-color: #333;
+    text-align: center;
+}
+
+nav {
+    list-style: none;
+    background-color: #444;
+}
+li {
+    display: inline-block;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.activity {
+    background-color: white;
+}
+
+#activity1 {
+    color: blue;
+}
+
+#activity2 {
+    color: green;
+}
+
+footer {
+    background-color: #222;
+    color: lightgray;
+    text-align: center;
+}
+footer a {
+    color: lightblue;
+}
