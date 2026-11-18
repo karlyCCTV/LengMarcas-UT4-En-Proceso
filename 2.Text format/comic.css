@@ -1,0 +1,10 @@
+html {
+    background-color: #add8e6;
+}
+p:first-letter {
+    color: red;
+    font-size: 30px;
+}
+p {
+    font-family: arial;
+}
