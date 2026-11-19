@@ -1,0 +1,32 @@
+h1 {
+    color: #333;
+    text-align: center;
+}
+body{
+    background-color: #eee;
+    font-family: Arial;
+}
+p {
+    background-color: #ccc;
+}
+h2 {
+    background-color: #999;
+    color: red;
+}
+em{
+    color: blue;
+    text-decoration-line: underline;
+    font-weight: bold;
+    font-style: normal;
+}
+strong {
+    color: #00AA00;
+}
+h3{
+    background-color: #aaa;
+    color: purple;
+}
+address {
+    font-style: normal;
+    text-align: end;
+}
