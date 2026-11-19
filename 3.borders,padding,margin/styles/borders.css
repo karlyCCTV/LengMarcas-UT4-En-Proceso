@@ -1,0 +1,19 @@
+/*
+HELP.TXT
+All elements on the page have:
+	margin: 0; removes all outer space around elements.
+	padding: auto;
+Body:
+Sets a blue background (rgb(76, 76, 174)).
+Text-color:white
+
+row1:
+is a class that adds a bottom border, bold text, and changes the color to yellow.
+
+Inner Elements (Classes .r1, .flight, .depT, .arrT, .dest):
+These classes apply specific spacing and alignment to elements inside .row1.
+r1: Adds space to the left and centers text.
+.flight, .depT, .arrT, .dest: Add space to the right (for layout purposes).
+*/
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios");
