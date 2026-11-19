@@ -19,4 +19,8 @@ h3 {
 pre {
     font-weight: bolder;
 }
-adress {}
+address {
+  text-align: end;
+  font-style: normal;  
+  font-family: 'Times New Roman', Times, serif;
+}
