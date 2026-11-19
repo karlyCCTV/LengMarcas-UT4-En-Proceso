@@ -28,5 +28,12 @@ h1 span {
     font-size: 18px;
 }
 h2 {
-    font-family: serif;
+    font-family:'Times New Roman', Times, serif;
+    font-variant:small-caps;
+    font-size: 18px;
+}
+address {
+    text-align: end;
+    font-family: arial;
+    font-size: 20px;
 }
