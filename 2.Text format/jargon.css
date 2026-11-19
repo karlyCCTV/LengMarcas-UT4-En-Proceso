@@ -1,0 +1,22 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration-line: underline;
+}
+body {
+    font-family: arial;
+}
+h2 {
+    background-color: #409ABF;
+}
+blockquote {
+    font-style: italic;
+}
+h3 {
+    background-color: #7DBAD5;
+    color: white;
+}
+pre {
+    font-weight: bolder;
+}
+adress {}
