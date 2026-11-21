@@ -17,3 +17,31 @@ r1: Adds space to the left and centers text.
 */
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios");
+
+
+body {
+	background-color: rgb(76 76 174);
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 25px repeat(6, 50px);
+	justify-content: space-between;
+}
+span {
+	display:flex;
+	align-content: space-between;
+	padding: auto;
+	margin: 0;
+}
+div {
+	display: flex;
+	justify-content: space-between;
+}
+.description {
+}
+.row1 {
+	color: yellow;
+}
+.flight {
+	
+}
