@@ -23,9 +23,11 @@ body {
 	background-color: rgb(76 76 174);
 	color: white;
 	display: grid;
-	grid-template-columns: 1fr;
+	grid-template-columns: auto;
 	grid-template-rows: 25px repeat(6, 50px);
 	justify-content: space-between;
+	padding: auto;
+	margin: 0;
 }
 span {
 	display:flex;
@@ -34,14 +36,29 @@ span {
 	margin: 0;
 }
 div {
-	display: flex;
+	color: #7AEED0;
+	display: grid;
+	grid-column: 1/7;
+	grid-template-columns: subgrid;
+	grid-template-rows: 15px;
 	justify-content: space-between;
 }
+span.r1 {
+	margin-top: 10px;
+	margin-left: 10px;
+	align-items: center;
+
+}
+.row6 span {
+	color: red;
+}
 .description {
+	margin-left: 10px;
 }
 .row1 {
 	color: yellow;
 }
 .flight {
-	
+	margin-left: 10px;
+	margin-right: 200px;
 }
