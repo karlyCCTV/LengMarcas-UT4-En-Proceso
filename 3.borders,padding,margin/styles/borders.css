@@ -18,47 +18,102 @@ r1: Adds space to the left and centers text.
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios");
 
+* {
+    margin: 0;
+    padding: auto;
+}
 
 body {
-	background-color: rgb(76 76 174);
+	background-color: rgb(76, 76, 174);
 	color: white;
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: 25px repeat(6, 50px);
-	justify-content: space-between;
-	padding: auto;
-	margin: 0;
 }
-span {
-	display:flex;
-	align-content: space-between;
-	padding: auto;
-	margin: 0;
-}
-div {
-	color: #7AEED0;
-	display: grid;
-	grid-column: 1/7;
-	grid-template-columns: subgrid;
-	grid-template-rows: 15px;
-	justify-content: space-between;
-}
-span.r1 {
-	margin-top: 10px;
-	margin-left: 10px;
-	align-items: center;
 
-}
-.row6 span {
-	color: red;
-}
-.description {
-	margin-left: 10px;
-}
 .row1 {
+	border-bottom: solid #0A0A6C;
+	font-style: bold;
 	color: yellow;
 }
-.flight {
+.row1 .r1 {	
 	margin-left: 10px;
-	margin-right: 200px;
+	text-align: center;
+	font-size: small;
+}
+.row1 .flight{padding-right: 25%}
+.row1 .depT{padding-right:12%;}
+.row1 .arrT{padding-right:10%;}
+.row1 .dest{padding-right:11.8%}
+
+.row2{
+    border-bottom:2px solid rgb(10, 10, 108);
+    font-size: 22px;
+    margin-top: 10px;
+    color: aquamarine;
+}
+.row2 .r2{margin-left: 10px;
+          text-align: center;}
+.row2 .flight{padding-right:25%;}
+.row2 .depT{padding-right:12%;}
+.row2 .arrT{padding-right:12%;}
+.row2 .dest{padding-right:12%;}
+
+.row3{
+    font-size: 22px;
+    border-bottom:2px solid rgb(10, 10, 108);
+    margin-top: 10px;
+    color: aquamarine;
+}
+.row3 .r3{ margin-left: 10px;
+           text-align: center;}
+.row3 .flight{padding-right:25%;}
+.row3 .depT{padding-right:12%;}
+.row3 .arrT{padding-right:12%;}
+.row3 .dest{padding-right:11.3%;}
+
+.row4{
+    font-size: 22px;
+    border-bottom:2px solid rgb(10, 10, 108);
+    margin-top: 10px;
+    color: aquamarine;
+}
+.row4 .r4{margin-left: 10px;
+          text-align: center;}
+.row4 .flight{padding-right:25%;}
+.row4 .depT{padding-right:12%;}
+.row4 .arrT{padding-right:12%;}
+.row4 .dest{padding-right:11.6%;}
+
+.row5{
+    font-size: 22px;
+    border-bottom:2px solid rgb(10, 10, 108);
+    margin-top: 10px;
+    color: aquamarine;
+}
+.row5 .r5{
+    margin-left: 10px;
+    text-align: center;
+}
+.row5 .flight{padding-right:25%;}
+.row5 .depT{padding-right:12%;}
+.row5 .arrT{padding-right:12%;}
+.row5 .dest{padding-right:11.8%;}
+
+
+.row6{
+    font-size: 22px;
+    border-bottom:2px solid rgb(10, 10, 108);
+    margin-top: 10px;
+    color: red;
+}
+.row6 .r6{
+    margin-left: 10px;
+    text-align: center;
+}
+.row6 .flight{padding-right:25%;}
+.row6 .depT{padding-right:12%;}
+.row6 .arrT{padding-right:12%;}
+.row6 .dest{padding-right:11.8%;}
+
+.description{
+    font-size: small;
+    margin-left: 10px;
 }
