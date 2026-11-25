@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>
+    <link rel="stylesheet" href="5.Box-sizingFloat.css">
+  </head>    
+  <body>
+
+    <div class="section">
+      <h1><code>Box-sizing: content-box</code></h1>
+
+      <div class="box content-box">
+        Este contenedor usa el modelo <strong>content-box</strong>, que es el valor por defecto.  
+        El ancho indicado (<code>width</code>) solo aplica al contenido, y el borde y el relleno se suman al tamaño total visible.
+      </div>
+
+      <div class="half content-box">Caja flotante A</div>
+      <div class="half content-box">Caja flotante B</div>
+
+      <div class="clearfix"></div>
+
+      <div class="info">
+        Observa que estas cajas parecen más grandes porque el padding y el borde se agregan fuera del ancho declarado.
+      </div>
+    </div>
+
+    <div class="section">
+      <h1>Ejemplo 2: <code>box-sizing: border-box</code></h1>
+
+      <div class="box border-box">
+        Este contenedor usa el modelo <strong>border-box</strong>.  
+        El ancho declarado incluye el contenido, el borde y el padding, por lo que el tamaño visible total se mantiene igual.
+      </div>
+
+      <div class="half border-box">Caja flotante A</div>
+      <div class="half border-box">Caja flotante B</div>
+
+      <div class="clearfix"></div>
+
+      <div class="info">
+         Observa que, aunque ambas secciones usan el mismo ancho declarado, las cajas con <code>border-box</code> se ajustan mejor y mantienen su tamaño total más consistente.
+      </div>
+    </div>
+  </body>
+</html>
