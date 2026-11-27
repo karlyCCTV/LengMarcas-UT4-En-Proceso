@@ -2,6 +2,9 @@
   max-width: 900px;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
+  border: solid lime;
+  border-radius: 10px;
 }
 
 .container .espacio {
@@ -18,15 +21,68 @@
   font-weight: bold;
   font-family: Arial, sans-serif;
   text-align: center;
+  border-radius: 90%; 
+  position: absolute;
+  line-height: 100px;
 }
-
-#mercurio { background-color: #b8b8b8; }
-#venus { background-color: #d6a75e; }
-#tierra { background-color: #4e91e6; }
-#marte { background-color: #e15a3d; }
-#jupiter { background-color: #d2b48c; }
-#saturno { background-color: #f3cf7a; }
-#urano { background-color: #7fc7d9; }
-#neptuno { background-color: #466de0; }
-#pluton { background-color: #b48ae6; }
+#mercurio {
+  background-color: #b8b8b8;
+  top: 15px;
+  left: 15px;
+}
+#venus {
+  background-color: #d6a75e;
+  top: 15px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+#tierra {
+  background-color: #4e91e6;
+  top: 15px;
+  right: 15px;
+  margin: 0 auto;
+}
+#marte {
+  background-color: #e15a3d;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  margin: auto auto;
+}
+#jupiter {
+  background-color: #d2b48c;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto auto;
+}
+#saturno {
+  background-color: #f3cf7a;
+  top: 0;
+  bottom: 0;
+  right: 15px;
+  margin: auto auto;
+}
+#urano {
+  background-color: #7fc7d9;
+  bottom: 15px;
+  right: 0;
+  left: 15px;
+  margin: auto 0;
+}
+#neptuno {
+  background-color: #466de0;
+  bottom: 15px;
+  right: 0;
+  left: 0;
+  margin: auto auto;
+}
+#pluton {
+  background-color: #b48ae6;
+  bottom: 15px;
+  right: 15px;
+  margin: auto 0;
+}
 
