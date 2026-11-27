@@ -1,0 +1,32 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.container .espacio {
+  width: 100%;
+  height: 500px;
+  display: block;
+  background-color: #1a1a1a;
+}
+
+.planet {
+  width: 100px;
+  height: 100px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#mercurio { background-color: #b8b8b8; }
+#venus { background-color: #d6a75e; }
+#tierra { background-color: #4e91e6; }
+#marte { background-color: #e15a3d; }
+#jupiter { background-color: #d2b48c; }
+#saturno { background-color: #f3cf7a; }
+#urano { background-color: #7fc7d9; }
+#neptuno { background-color: #466de0; }
+#pluton { background-color: #b48ae6; }
+
