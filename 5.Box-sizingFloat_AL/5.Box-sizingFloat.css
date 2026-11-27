@@ -25,6 +25,7 @@ body{
 h1{
     color:#2b4c73;
 }
+
 .section{
     margin-bottom:60px;
 }
@@ -39,4 +40,18 @@ code{
     background-color: #eef;
     padding: 2px 4px;
     border-radius: 3px;
+}
+/*
+Cambios
+*/
+.content-box {
+    display: inline-block;
+    vertical-align: top;
+    flex-direction: column;
+    box-sizing: content-box;
+}
+.border-box {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
 }
